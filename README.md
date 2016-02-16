@@ -45,6 +45,8 @@ The Project Repository Contains following:
 •LICENSE: license terms for text and code.
 •README.md: this file.
 •run_analysis.R: R script to transform raw data set in a tidy one.
+•tidyDataOutput.txt: This is the final Tidy/Clean data set for further analysis as generated 
+                     from the script run_analysis.R
 
 How to create the tidy data set:
 
@@ -53,7 +55,4 @@ How to create the tidy data set:
 3.unzip raw data and copy the directory UCI HAR Dataset to the cloned repository root directory
 4.open a R console and set the working directory to the repository root (use setwd())
 5.source run_analisys.R script (it requires the plyr package): source('run_analysis.R')
-
-In the repository root directory you find the 
-file sensor_avg_by_act_sub.txt with the tidy data set.
 ====================================================================================================
